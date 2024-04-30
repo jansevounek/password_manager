@@ -8,20 +8,28 @@
             rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
   }
   .sidebar-addon-icon {
-    @apply relative flex justify-center items-center h-12 mt-1 mb-1 w-36 mx-auto text-fifth rounded-sm cursor-pointer hover:bg-third transition-all duration-300 ease-in-out 
+    @apply relative flex font-mono justify-center items-center h-12 mt-1 mb-1 w-36 mx-auto text-fifth rounded-sm cursor-pointer hover:bg-third transition-all duration-300 ease-in-out 
         hover:rounded-md;
   }
-  
   .sidebar-addon-top {
     @apply relative flex justify-end mt-5 mr-3 text-fifth;
   }
   .addon-icon-popup {
-    @apply absolute flex scale-0 justify-center items-center text-center right-5 bottom-[-5px] bg-first rounded-lg w-12 h-7 transition-all duration-100 ease-linear;
+    @apply absolute flex scale-0 justify-center items-center text-center right-5 bottom-[-5px] bg-first rounded-lg w-12 h-7 transition-all duration-100 ease-linear font-mono;
   }
   .open-addon-popup {
-    @apply absolute flex items-center justify-center text-center left-14 bottom-[-4px] bg-third w-20 h-12 scale-0 rounded-md group-hover:scale-100 transition-all duration-100 ease-in-out;
+    @apply absolute flex items-center justify-center text-center left-14 bottom-[-4px] bg-third w-20 h-12 scale-0 rounded-md group-hover:scale-100 transition-all duration-100 ease-in-out font-mono;
+  }
+  .main-text {
+    @apply relative w-[50%] text-first left-10 z-10 top-10;
+  }
+  .get-app-text {
+    @apply flex flex-col w-screen items-end text-first z-10 mt-[1000px] font-mono;
   }
   .homepage-text {
-    @apply relative h-screen w-[50%] text-first left-10 z-10 top-10;
+    @apply flex flex-col items-start h-screen w-[90%] font-mono;
+  }
+  .heading-content {
+    @apply mt-4 font-mono text-third cursor-pointer hover:text-first;
   }
 } 

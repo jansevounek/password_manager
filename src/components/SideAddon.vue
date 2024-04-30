@@ -10,28 +10,28 @@
                 </div>
             </div>
             <div class="sidebar-addon-icon">
-                <a href="" class="group">
+                <a href="#about-us" class="group">
                     <span class="border-fifth group-hover:border-b-2 transition-all duration-50 ease-in">
                         About us
                     </span>
                 </a>
             </div>
             <div class="sidebar-addon-icon">
-                <a href="" class="group">
+                <a href="#get-app" class="group">
                     <span class="border-fifth group-hover:border-b-2 transition-all duration-50 ease-in">
                         Get app
                     </span>
                 </a>
             </div>
             <div class="sidebar-addon-icon">
-                <a href="" class="group">
+                <a href="#accounts" class="group">
                     <span class="border-fifth group-hover:border-b-2 transition-all duration-50 ease-in">
                         Accounts
                     </span>
                 </a>
             </div>
             <div class="sidebar-addon-icon">
-                <a href="" class="group">
+                <a href="#other-projects" class="group">
                     <span class="border-fifth group-hover:border-b-2 transition-all duration-50 ease-in">
                         Other projects
                     </span>
