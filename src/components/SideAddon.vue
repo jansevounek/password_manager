@@ -19,14 +19,14 @@
             <div class="sidebar-addon-icon">
                 <a href="" class="group">
                     <span class="border-fifth group-hover:border-b-2 transition-all duration-50 ease-in">
-                        Accounts
+                        Get app
                     </span>
                 </a>
             </div>
             <div class="sidebar-addon-icon">
                 <a href="" class="group">
                     <span class="border-fifth group-hover:border-b-2 transition-all duration-50 ease-in">
-                        Github
+                        Accounts
                     </span>
                 </a>
             </div>
@@ -43,16 +43,17 @@
         class="fixed w-10 h-10 top-2 rounded-r-md bg-second z-40 flex items-center justify-center text-sixth group">
         <BIconCaretRightFill class="cursor-pointer" @click="changeAddonState" />
         <span class="open-addon-popup">
-            open
+            open details
         </span>
     </div>
 </template>
 
 <script>
+
 export default {
     data() {
         return {
-            showAddon: true,
+            showAddon: false,
         };
     },
     methods: {

@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tresjs/core": "^3.9.0",
     "bootstrap-icons-vue": "^1.11.3",
     "bulma": "^1.0.0",
+    "three": "^0.164.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
