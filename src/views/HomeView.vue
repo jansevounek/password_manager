@@ -43,9 +43,12 @@
                 <h1 id="get-app" class="text-end font-mono text-[40px] w-[50%] mr-20">
                     Get the app
                 </h1>
-                <p class="text-end w-[50%] mr-20">
+                <p class="text-end w-[50%] mr-20 mt-10">
                     We have a windows desktop application availible for download. You can download it from the link below.
                 </p>
+                <div class="relative flex flex-row w-[100%] h-16 justify-end">
+                    <button class="z-20 mt-10 mr-36 button-first">Get app</button>
+                </div>
             </div>
             <div class="get-app-text">
                 <h1 id="accounts" class="text-end font-mono text-[40px] w-[50%] mr-20">
